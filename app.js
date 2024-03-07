@@ -81,6 +81,7 @@
 // alert("car is smaller than cat");
 // }
 // QUESTION #6
+// solution=1
 // var english=("English");
 // var urdu=("Urdu");
 // var math=("Math");
@@ -186,6 +187,53 @@
 // if (per>=70){document.write("<td>"+"Good"+"</td>")}
 // if (per>=60){document.write("<td>"+"you need yo improve"+"</td>")}
 // if (per<50){document.write("<td>"+"sorry "+"</td>")}
+// solution=2
+// var totalMarks1=+prompt("Enter 1st subject toatal marks");
+// var totalMarks2=+prompt("Enter 2nd subject toatal marks");
+// var totalMarks3=+prompt("Enter 3rd subject toatal marks");
+
+// var obtainMarks1=+prompt("obatined mark1");
+// var obtainMarks2=+prompt("obatined mark3");
+// var obtainMarks3=+prompt("obatined mark3");
+
+// var  total=(totalMarks1+totalMarks2+totalMarks3);
+// var  obtained=(obtainMarks1+obtainMarks2+obtainMarks3);
+// var  per=((obtained/total)*100);
+
+
+// document.write("<table >");
+
+// document.write("<tr>");
+// document.write("<td>"+"Mark Sheet"+"</td>")
+// document.write("</tr>");
+
+// document.write("<tr>");
+// document.write("<td>"+" Total marks"+"</td>")
+// document.write("<td>"+total+"</td>")
+// document.write("</tr>");
+
+
+// document.write("<tr>");
+// document.write("<td>"+" Obtained marks"+"</td>")
+// document.write("<td>"+obtained+"</td>")
+// document.write("</tr>");
+
+// document.write("<tr>");
+// document.write("<td>"+" Percentage"+"</td>")
+// document.write("<td>"+per+"%"+"</td>")
+// document.write("</tr>");
+
+// document.write("<tr>");
+// document.write("<td>"+" Grade"+"</td>")
+// if (per>=90){ document.write("<td>"+"A-one"+"</td>")}
+// else if (per>=80){ document.write("<td>"+"A"+"</td>")}
+// else if (per>=70){ document.write("<td>"+"b"+"</td>")}
+// else if (per>=60){ document.write("<td>"+"poor"+"</td>")}
+// else if (per<60){ document.write("<td>"+"mehnt kra bhai mhnt"+"</td>")}
+// document.write("</tr>")
+
+
+
 
 // QUESTION #07
 // var num=prompt("Enter correct number");
@@ -219,21 +267,78 @@
 
 // QUESYION #11
 
-var num1 = +prompt("Enter number 1");
-var opt = prompt();
-var num2 = +prompt("Enter number 2");
-if (opt == "+") {
-     console.log(num1 + num2);
-     }
-else if (opt == "-") {
-    console.log(num1 - num2);
-}
-else if (opt == "*") {
-    console.log(num1 * num2);
-}
-else if (opt == "/") { 
-    console.log(num1/num2); 
-}
-else {
-    console.log("insert a Number please");
-}
+// var num1 = +prompt("Enter number 1");
+// var opt = prompt();
+// var num2 = +prompt("Enter number 2");
+// if (opt == "+") {
+//      console.log(num1 + num2);
+//      }
+// else if (opt == "-") {
+//     console.log(num1 - num2);
+// }
+// else if (opt == "*") {
+//     console.log(num1 * num2);
+// }
+// else if (opt == "/") { 
+//     console.log(num1/num2); 
+// }
+// else {
+//     console.log("insert a Number please");
+// 
+
+// CHAPTER 12-13
+
+
+
+
+
+// QUESTION #02
+
+// var num1=+prompt("Enter 1st number");
+// var num2=+prompt("Enter 2nd number");
+
+// if(num1===num2){console.log("both are equal")}
+// else if (num1>num2){console.log("Number 1 is greater than Number 2")}
+// else{console.log("Number 2 is greater than number 1")}
+
+
+// QUESTION #03
+
+// var num =+prompt("enter number to cheack no is pos,neg")
+// if(num>0){console.log("the given value is positive")}
+// else if(num<0){console.log("the given value is negative")}
+// else{document.write("zero")}
+
+// QUESTION #04
+
+// var  user =prompt("");
+// if(user=="a"){document.write("yes it is vovel")}
+// else if(user=="e"){document.write("yes it is vovel")}
+// else if(user=="i"){document.write("yes it is vovel")}
+// else if(user=="o"){document.write("yes it is vovel")}
+// else if(user=="u"){document.write("yes it is vovel")}
+// else{document.write("no its not vovel")}
+
+// QUESTION #05
+// var  enterPassword=prompt("Make password");
+// var  conformPassword=prompt("conform Your password");
+
+// if(enterPassword==="" ||conformPassword===""){document.write("enter password please")}
+// else if(enterPassword===conformPassword){document.write("password confirm successful")}
+// else{document.write("password not matched")}
+
+// QUESTION #06
+
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//     greeting = "Good day";
+// } else {
+//     greeting = "Good evening";
+// }
+
+// QUESTION #07
+var time=+prompt("Enter time in 24 hours");
+if(time>=100){console.log("good morning");} 
+else if (time>150){console.log("good ")}
